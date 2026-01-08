@@ -1,10 +1,11 @@
 import React from 'react'
-import Section from './Components/Section'
+import Section from './components/Home/Section'
+import AppRouter from './router/AppRouter'
 
 const App = () => {
   return (
     <div>
-      <Section/>
+      <AppRouter/>
     </div>
   )
 }

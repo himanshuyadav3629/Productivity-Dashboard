@@ -1,1 +1,22 @@
-@import "tailwindcss"
+@import "tailwindcss";
+
+:root {
+  --primary: #38bdf8;
+  --dark-blue: #003c78;
+  --bg: #020617;
+  --text: #e5e7eb;
+}
+@property --rotate{
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+@keyframes rot {
+    from{
+        --rotate:0deg;
+    }
+    to{
+        --rotate:360deg
+    }
+    
+}
