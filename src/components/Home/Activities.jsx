@@ -4,7 +4,6 @@ import { ImageDataContext } from '../../context/Home/ImageContext'
 
 const Activities = () => {
     const ImageData=useContext(ImageDataContext)
-    console.log(ImageData)
 
   return (
     <div className='h-120 w-full mt-8 flex flex-col justify-around '>
